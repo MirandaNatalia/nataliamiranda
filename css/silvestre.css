@@ -1,0 +1,306 @@
+/* Nav bar */
+body{
+  background: linear-gradient(rgba(147, 50, 179, 0.089),#ffffff);
+  margin-top: 10vh;
+  
+}
+
+@media (min-width: 768px) {
+  .view {
+      overflow: visible;
+      margin-top: -56px;
+      
+  }
+}
+.navbar {
+  box-shadow:none;
+  background-color: transparent;
+  transition: 0.5s ease;
+
+}
+
+
+.navbar .nav .item {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 300;
+  line-height: 80px;
+  margin-right: 20px;
+  transition: 0.5s ease;
+}
+
+
+
+.navbar .nav .item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.scrolled {
+  transition: 0.5s ease;
+ }
+ 
+ .scrolled.navbar {
+   background-color: #ffffff;
+   transition: 0.5s ease;
+   color: black;
+ 
+ }
+
+ scrolled.navbar .nav .item {
+  line-height: 40px;
+  transition: 0.5s ease;
+}
+
+
+
+
+
+
+/* color nav */
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+  color: black;  
+  
+}
+
+
+/* End navbar */
+
+
+/* Start line */
+
+.line-title {
+  content: '';
+  position: absolute;
+  left: 3.2vh;
+  top: 1vh;
+  background:#9232b3;
+  height: .4em;
+  width:50vh;
+}
+/* End líne */
+
+
+/* Titles projets */
+h1,h2,h5{
+  margin-top: 10vh;
+  font-weight: 400;
+  
+  
+}
+
+h1{
+  letter-spacing: 0.8vh;
+  font-size: 8vh;
+  font-weight: 500
+  
+  
+  
+}
+
+h5{
+  letter-spacing: 3px;
+  
+}
+ 
+h2{
+  letter-spacing: 2px;
+
+}
+
+h3{
+  font-size: 5vh;
+  font-weight: 400
+  
+}
+
+/* hr seccion objetivo */
+
+.objetivos{
+  position: absolute;
+  left: 2.5vh;
+  top: 11vh;
+  background: #9232B3;
+  height: .1em;
+  width: 5em;
+}
+
+
+.subtitle{
+  font-size: 8vh;
+  letter-spacing: 0.8vh;
+  font-weight: 500;
+  margin-left: 8vh;
+  
+
+}
+
+
+
+  .second-title{
+    font-size: 4.5vh;
+    font-weight: 400;
+    
+  }
+
+  .leftLine-titulo{
+    content: '';
+    position: absolute;
+    left: 3.2vh;
+    top: 22vh;
+    background: #9232B3;
+    height: .3em;
+    width: 2em;
+  }
+
+  .line-bottom {
+    content: '';
+    position: absolute;
+    left: 3.2vh;
+    top: 17vh;
+    background: #9232B3;
+    height: .1em;
+    width: 2em;
+  }
+
+
+  @media (min-width: 320px) {
+    #line {
+      top: 100%;
+   }
+   
+ }
+
+  .intro-line{
+    content: '';
+    position: absolute;
+    left: 2.7vh;
+    top: 16vh;
+    background: #9232B3;
+    height: .1em;
+    width: 2em;
+  }
+
+ 
+/* End title projects */
+
+
+
+/* Párrrafos */
+p{
+  margin-top: 4vh;
+  font-size: 3vh;
+}
+
+.parrafo-title{
+  margin-top: 2vh;
+
+}
+
+/* End párrafos */
+
+
+
+
+/*=============================================
+=            Background mejoras       =
+=============================================*/
+.container-soluciones{
+  background-color: rgba(79, 212, 196, 0.274);
+  width: 100%;
+  height: 90vh;
+  margin-top: 10vh;
+
+}
+
+
+/* animaciones iconos */
+
+.wow {
+  visibility: hidden;
+}
+
+/* fin animaciones iconos */
+
+
+/* fondo check */
+#fondoCheck{
+  background-color: rgba(16, 252, 252, 0.048);
+  width: 70%;
+  height: 20%;
+  border-radius: 2vh;
+  
+
+}
+/* fin fondo check */
+
+
+
+/* Carrusel */
+
+
+
+/* fin carruses */
+
+
+
+.Tools{
+  font-size: 3vh;
+  list-style:none;
+    
+}
+
+ul{
+  padding: 0%;
+  
+}
+
+/* protoptipo */
+.imgIphone6{
+  background-color: white;
+  
+  
+}
+
+#prototype{
+  max-height: 500px;
+  margin-top: 8vh;
+  margin-bottom: 10vh;
+  padding-bottom: 10vh;
+}
+
+/*Prototipo navegable Media*/
+@media (min-width: 320px) and (max-width: 768px) {
+  .prototypeSilvestre{
+    width: 250px;
+    height: 500px;
+    margin-top: 5em;
+   }
+  
+  }
+
+/*=====  footer  ======*/
+
+.footer-color{
+  background-color: rgba(195, 199, 202, 0.274);
+  width: 100%;
+  height: 25vh;
+  padding-bottom: 2vh;
+  margin-top: 11vh;
+  
+}
+/*=====  End footer ======*/
+
+
+/* iconos */
+
+.fa, .fab, .fal, .far, .fas{
+  font-size: 2em;
+  color: #9232b3;
+  margin: 1vh;
+  margin-top: 3vh;
+  
+}

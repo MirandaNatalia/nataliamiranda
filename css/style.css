@@ -1,0 +1,422 @@
+/* Particles */
+#particles-js {
+  background-image:linear-gradient(rgba(147, 50, 179, 0.342),rgba(86, 217, 202, 0.363));
+  height: 476px;
+}
+/* Fin particles */
+
+
+
+/* Nav bar */
+
+
+@media (min-width: 768px) {
+  .view {
+      overflow: visible;
+      margin-top: -56px;
+      
+  }
+}
+.navbar {
+  box-shadow:none;
+  background-color: transparent;
+  transition: 0.5s ease;
+
+}
+
+
+.navbar .nav .item {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 300;
+  line-height: 80px;
+  margin-right: 20px;
+  transition: 0.5s ease;
+  
+}
+
+
+.navbar .nav .item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.scrolled {
+  transition: 0.5s ease;
+ }
+ 
+ .scrolled.navbar {
+   background-color: #ffffff;
+   transition: 0.5s ease;
+   color: black;
+   
+ 
+ }
+
+ scrolled.navbar .nav .item {
+  line-height: 40px;
+  transition: 0.5s ease;
+}
+
+
+/* color nav */
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+  color: black;  
+  
+}
+
+
+
+/* -------------------------------------------------------------------------
+   begin Scroll Down Button
+ * ------------------------------------------------------------------------- */
+button.scroll_down {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 30px;
+  bottom: 60px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+button.scroll_down:before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: scroll_down_btn-animation 2s infinite;
+  animation: scroll_down_btn-animation 2s infinite;
+  box-sizing: border-box;
+}
+
+@keyframes scroll_down_btn-animation {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes scroll_down_btn-animation {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   end Scroll Down Button 
+ * ------------------------------------------------------------------------- */
+
+/* fin scroll down */
+
+
+
+/* Text Name */
+h1{
+  font-size: 70px;
+  font-weight: 600;
+  font-style: bold;
+ 
+
+  
+}
+.text-title{
+  font-size: 3vh;
+
+}
+
+
+
+/* color nav */
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+  color: #ffffff;
+}
+/* fin color nav */
+
+
+.top-nav-collapse {
+  
+ 
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+      background-color:#ffffffa9;
+  }
+}
+
+/* Fin nav bar */
+
+
+/* textName */
+.text-name{
+  position: absolute;
+  margin-top: 10em;
+ 
+}
+/* Fin textName */
+
+
+/*=============================================
+=            Section 2  What I do        =
+=============================================*/
+
+/* Gradient sección 2 */
+#whatIdo{
+  background-image: linear-gradient(rgba(86, 217, 202, 0.363),#55b9bd13);
+  padding-bottom: 5rem;
+
+  
+}
+/* Fin gradient seccion 2 */
+
+
+/* Start icons */
+
+#icons{
+  margin-top: 3rem;
+}
+
+/* End icons */
+
+
+/* Start title icons */
+h2, h5{
+  font-weight: 400
+}
+
+/* End title icon */
+
+
+/* Margin top WID */
+
+#WID{
+  margin-top: 8em;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #WID{
+     margin-top: 10em;
+    }
+   
+   }
+   /* Fin Margin top WID */
+ 
+   
+  /*Flecha abajo */
+ 
+  .flechaAbajo{
+    margin-top: 35em;
+  
+  
+  }
+
+
+   @media (min-width: 320px) and (max-width: 768px) {
+     .flechaDown{
+        margin-top: 10em;
+       }
+      
+      }
+
+
+
+/* Parrafo  */
+#UX-UI{
+  font-size: 20px;
+}
+/* Fin Párrafo */
+
+
+.text-wid{
+  font-size: 1.1em;
+}
+
+
+/* imgFinger */
+#finger{
+  position: absolute;
+  width:15%;
+  height:15%;
+  top:66px; 
+  left:120px; 
+  visibility: visible;
+  z-index: 10;
+}
+
+/*=====  Fin Sección What I Do ======*/
+
+
+/*=============================================
+=            Section projects            =
+=============================================*/
+
+.projects{
+  background-image: linear-gradient(#55b9bd13,#ffffff);
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+}
+
+/* Img fondo proyecto keeper */
+#p1{
+  max-width: 100%;
+    height: auto;
+    margin-top: 5vh;   
+    background-color: #67c2ab25;
+}
+/* Img fondo proyecto Keeper */
+
+
+/* Img fondo POS */
+#fondoPos{
+  max-width: 100%;
+    height: auto;
+    margin-top: 5vh;   
+    background-color: #4770d61c;
+}
+/* Img fondo POS */
+
+/* Img fondo proyecto red social*/
+
+#fondoRedsocial{
+  max-width: 100%;
+  height: auto;
+  margin-top: 5vh;   
+  background-color: #3bddd52f;
+}
+
+
+
+/* Img fondo proyecto red social*/
+
+
+  /*Media queries Home */
+
+/*Red social text */
+@media (min-width: 320px) and (max-width: 425px) {
+  .redsocialText{
+    margin-top: -40em;
+   }
+  
+  }
+
+  /*red social img */
+    .imgRedsocial{
+   
+     }
+    
+    
+
+
+
+
+
+
+/* Title projects */
+h3{
+  font-size: 8vh;
+  margin-top: 18vh;
+  font-weight: 600;
+}
+
+
+.wow {
+  visibility: hidden;
+}
+
+/* End title project */
+
+
+/* Second title project */
+.second-title{
+  font-size: 8vh;
+  font-weight: 600;
+  margin-left: 8vh;
+}
+
+/* End second title project */
+
+.left-line {
+  content: '';
+  position: absolute;
+  left: 3.2vh;
+  top: 34vh;
+  background: #9232B3;
+  height: .3em;
+  width: 2em;
+}
+ .text-project{
+   font-size: 3.5vh;
+}
+
+
+@media only screen and (min-width: 320px) {
+}
+
+
+/*=====  End of Section projects  ======*/
+
+
+
+
+
+/*=====  footer  ======*/
+
+.footer-color{
+  background-color: rgba(195, 199, 202, 0.274);
+  width: 100%;
+  height: 25vh;
+  padding-bottom: 2vh;
+  margin-top: 20vh;
+}
+/*=====  End footer ======*/
+
+
+/* iconos */
+
+.fa, .fab, .fal, .far, .fas{
+  font-size: 2em;
+  color: #9232b3;
+  margin: 1vh;
+  margin-top: 3vh;
+  
+}
+
+
+
